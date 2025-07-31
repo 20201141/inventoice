@@ -1,0 +1,29 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+.pnpm-debug.log
+
+# Build output
+dist/
+.next/
+out/
+
+# Env files
+.env
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite
+
+# Supabase config
+supabase/.env
+supabase/migrations
+supabase/functions
