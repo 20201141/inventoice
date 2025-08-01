@@ -1,16 +1,15 @@
 const { app, BrowserWindow } = require('electron');
-const path = require('path');
 
-function createWindow () {
+function createWindow() {
   const win = new BrowserWindow({
-    width: 1200,
+    width: 1000,
     height: 800,
     webPreferences: {
-      nodeIntegration: true
-    }
+      nodeIntegration: false,
+    },
   });
 
-  win.loadURL('http://localhost:5173'); // default Vite dev server
+  win.loadURL('http://localhost:5173'); // This should match your frontend dev server
 }
 
 app.whenReady().then(createWindow);
