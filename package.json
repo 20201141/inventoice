@@ -1,0 +1,10 @@
+{
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^37.2.5"
+  },
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "electron": "electron . --no-sandbox"
+  }
+}
