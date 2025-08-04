@@ -69,3 +69,5 @@ export function NavMain({
     </SidebarGroup>
   )
 }
+
+export default NavMain;

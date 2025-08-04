@@ -39,3 +39,5 @@ export function TeamSwitcher({
     </SidebarMenu>
   )
 }
+
+export default TeamSwitcher;

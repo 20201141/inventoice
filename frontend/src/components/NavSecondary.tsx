@@ -38,3 +38,5 @@ export function NavSecondary({
     </SidebarGroup>
   )
 }
+
+export default NavSecondary;
