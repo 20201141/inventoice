@@ -80,3 +80,5 @@ export function NavDocuments({
     </SidebarGroup>
   )
 }
+
+export default NavDocuments;
