@@ -35,7 +35,7 @@ export function NavDocuments({
 
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
-      <SidebarGroupLabel>Documents</SidebarGroupLabel>
+      <SidebarGroupLabel>Insights</SidebarGroupLabel>
       <SidebarMenu>
         {documents.map((item) => (
           <SidebarMenuItem key={item.name}>
