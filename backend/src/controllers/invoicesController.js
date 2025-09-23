@@ -1,4 +1,4 @@
-import { supabase } from "../db.js";
+import supabase from "../db.js";
 
 const INVOICE_SORT_FIELDS = ["invoice_date", "due_date", "amount", "created_at"];
 

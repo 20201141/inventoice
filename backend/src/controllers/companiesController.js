@@ -1,4 +1,4 @@
-import { supabase } from "../db.js";
+import supabase from "../db.js";
 
 const COMPANIES_SORT_FIELDS = ["name", "created_at", "type"];
 

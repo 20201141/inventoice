@@ -1,5 +1,4 @@
-// controllers/ordersController.js
-import { supabase } from "../db.js";
+import supabase from "../db.js";
 
 const ORDERS_SORT_FIELDS = ["created_at", "due_date", "total_cost", "status"];
 
